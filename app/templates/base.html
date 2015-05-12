@@ -1,0 +1,51 @@
+<html>
+  <head>
+    {% if title %}
+    <title>{{ title }} - 雪忆</title>
+    {% else %}
+    <title>雪忆</title>
+    {% endif %}
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='base.css') }}">
+</head>
+<body>
+<header class="header">
+  <ul>
+    <li class="cor-1"></li>
+    <li class="cor-2"></li>
+    <li class="cor-3"></li>
+    <li class="cor-4"></li>
+    <li class="cor-5"></li>
+  </ul>
+  </header>
+<div class="wrap">
+  
+
+<nav class="menu">
+  <ul>
+    <li>
+      <a href="/home">Home</a>
+    </li>
+    <li>
+      <a href="#">Archive</a>
+    </li>
+    <li>
+      <a href="#">About me</a>
+    </li>
+  </ul>
+  </nav>
+    <aside class="sidebar">
+      <div class="widget">
+      <h2>Andrew Liu</h2>
+      <p>Hello, my name’s <b>Andrew Liu</b>. I’m 23 years old. I live in <b>NanJing (China)</b>. I am a <b>Pythoner</b>.<br> Contact Me:<br><b>liu.bin.coder@gmail.com</b></p>
+      </div>
+      <div class="widget">
+      <h2>Archive</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+
+  </aside>
+    {% block content %}{% endblock %}
+</div>
+</body>
+</html>

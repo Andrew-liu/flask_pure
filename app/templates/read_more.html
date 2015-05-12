@@ -1,0 +1,22 @@
+<!-- extend base layout -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="blog">
+  {% if post %}
+  <div class="conteudo">
+    <div class="post-info">
+      Posted by {{ post.author }}
+      <br>
+       {{ post.time }} 
+    </div>
+    <img src="http://ns2.techstream.org/images/Core-Principles-of-Flat-Design.jpg">
+    <h1> {{ post.title }} </h1>
+    <hr>
+    <p>
+      {{ post.content }}
+    </p>
+  </div>
+    {% endif %}
+  </div>
+{% endblock %}

@@ -1,0 +1,1 @@
+MONGO_SETTINGS = {'DB' : 'pure_todo'}

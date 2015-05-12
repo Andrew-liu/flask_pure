@@ -1,0 +1,23 @@
+<!-- extend base layout -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="blog">
+    {% for post in posts %}
+  <div class="conteudo">
+    <div class="post-info">
+      Posted by {{ post.author }}
+      <br>
+       {{ post.time }} 
+    </div>
+    <img src="http://ns2.techstream.org/images/Core-Principles-of-Flat-Design.jpg">
+    <h1><a href="/post/{{ post.title }}">{{ post.title }} </a></h1>
+    <hr>
+    <p>
+      {{ post.content }}
+    </p>
+    <a href="/post/{{ post.title }}" class="continue-lendo">Read more →</a>
+  </div>
+  </div>
+    {% endfor %}
+{% endblock %}
