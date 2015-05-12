@@ -47,9 +47,7 @@ http://127.0.0.1:5000/
 
 #More Detail
 
-整个博客开发过程持续更新, 欢迎阅读
-
-链接为[Django搭建简易博客教程](http://andrew-liu.gitbooks.io/django-blog/content/)
+整个博客开发过程持续更新中...
 
 #Done
 
