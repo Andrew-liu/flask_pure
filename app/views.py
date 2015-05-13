@@ -18,3 +18,9 @@ def home():
 def read_more(title):
     post = Post.objects.get_or_404(title=title)
     return render_template('read_more.html', title="Post", post=post)
+
+@app.route('/archive')
+def archive():
+    posts = Post.objects.all()
+    return render_template('archive.html', title='Archive', posts=posts)
+

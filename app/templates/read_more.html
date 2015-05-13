@@ -14,9 +14,10 @@
     <h1> {{ post.title }} </h1>
     <hr>
     <p>
-      {{ post.content }}
+      {{ post.content|markdown }}
     </p>
   </div>
+    {% include 'duo_shuo.html' %}
     {% endif %}
   </div>
 {% endblock %}
