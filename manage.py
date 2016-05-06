@@ -15,7 +15,7 @@ def save_post():
         title="Hello World",
         tags="test",
         content="This is the First Post")
-    to.save()
+    post.save()
 
 if __name__ == '__main__':
     manager.run()
