@@ -1,4 +1,4 @@
-#Overview
+# Overview
 
 **Flask_Pure** which develop a Blog by Flask, It will update with learing.
 
@@ -8,7 +8,7 @@
 ![Blog](https://github.com/Andrew-liu/flask_pure/blob/master/picture/welcome.png)
 
 
-#Requirements
+# Requirements
 
 - Mac OS X 10.10.3
 - Sublime Text 3
@@ -17,7 +17,7 @@
 - virtualenv  1.11.6
 
 
-#Install 
+# Install 
 
 ```c
 $ git clone https://github.com/Andrew-liu/flask_pure
@@ -30,7 +30,7 @@ or
 $ git clone git@github.com:Andrew-liu/flask_pure.git 
 ```
 
-#Usage
+# Usage
 
 You can use the blog simply, just to do below:
 
@@ -45,11 +45,11 @@ http://127.0.0.1:5000/
 
 
 
-#More Detail
+# More Detail
 
 整个博客开发过程持续更新中...
 
-#Done
+# Done
 
 
 1. 博客框架
@@ -58,7 +58,7 @@ http://127.0.0.1:5000/
 4. 多说评论
 5. 归档
 
-#TO DO
+# TO DO
 
 - Admin后台管理
 - 标签分类
@@ -68,7 +68,7 @@ http://127.0.0.1:5000/
 
 
 
-#License
+# License
 
 Copyright (c) 2015 [Andrew Liu](http://andrewliu.tk)
 
